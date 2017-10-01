@@ -32,16 +32,6 @@ Comments
 </td></tr>
 </thead>
 <tr><td>
-<a href="../downloads/hamsterFight.exe">
-        HamsterFight</a>
-</td><td align="center">
-        1.0</td><td>
-        Win32 EXE</td><td>
-        1002k
-</td><td>
-        Supports Windows XP, Vista, 7, and 8.x</td></tr>
-        
-<tr><td>
 <a href="../downloads/hamsterFightSrc.zip">
         HamsterFightSrc.zip</a>
 </td><td align="center">

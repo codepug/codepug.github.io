@@ -30,15 +30,6 @@ Comments
 </td></tr>
 </thead>
 <tr><td>
-<a href="../downloads/SndBoarderSetup.exe">
-        SndBoarderSetup</a>
-</td><td align="center">
-        1.0</td><td>
-        Windows Installer</td><td>
-        2740k
-</td><td>
-        After downloading, right click on filename and run SndBoarderSetup.exe</td></tr>
-        <tr><td>
 <a href="../downloads/SndBoarderSource.zip">
         SndBoarderSource</a>
 </td><td align="center">

@@ -29,8 +29,7 @@ Comments
 </td></tr>
 </thead>
 <tr><td>
-<a href="../downloads/pineswp.exe">
-        pineswp.exe</a>
+        Temporarily Removed
 </td><td align="center">
         1.0</td><td>
         Win32 EXE</td><td>
