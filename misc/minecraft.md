@@ -6,11 +6,11 @@ permalink: /wiki/minecraft
 
 <style>
   body, h1 {
-    color: #7A49B0;
-    background-color: #1279CF
+    color: #E249B0;
+    background-color: #7B79CF
   }
 </style>
 
 ##Information coming soon##
 
-<div>Wed Nov 1 22:36:46 CDT 2017</div>
+<div>Wed Nov 1 22:39:10 CDT 2017</div>
