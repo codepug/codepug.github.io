@@ -6,11 +6,12 @@ permalink: /home
 
 <style>
   body, h1 {
-    color: #2F49B0;
-    background-color: #4779CF
+    color: "#7049B0";
+    background-color: "#9B79CF"
   }
 </style>
 
 ## Information coming soon ##
 
-<div>Fri Nov 3 22:11:02 CDT 2017</div>
+<div>"Sat Nov  4 21:13:29 CDT 2017"</div>
+
