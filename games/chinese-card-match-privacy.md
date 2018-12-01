@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Flopular Arrangement - Privacy
+title: Chinese Memory Game - Privacy
 permalink: /wiki/chinese-card-match-privacy
 ---
 
