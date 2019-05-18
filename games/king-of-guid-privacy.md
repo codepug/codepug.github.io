@@ -5,6 +5,7 @@ permalink: /wiki/king-of-guid-privacy
 ---
 
 ## Privacy Policy
+
 Nicholas Exner built the King of GUID app as a Commercial app. This SERVICE is provided by Nicholas Exner and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
