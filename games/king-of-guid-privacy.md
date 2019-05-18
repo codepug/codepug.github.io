@@ -25,7 +25,7 @@ For a better experience, while using our Service, I may require you to provide u
 
 The information that I request will be retained on your device and is not collected by me in any way.
 
-The app may use third party services that collect information used to identify you.
+The app may use third party services that collect information used to identify you. 
 
 I want to inform you that whenever you use my Service, in a case of an error in the app I may collect data and information through third party products. This data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
 
