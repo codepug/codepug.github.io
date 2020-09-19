@@ -1,7 +1,7 @@
 ---
 layout: home
 title: iOS NFC Shortcuts
-permalink: /wiki/say-the-weather-on-a-mac
+permalink: /wiki/ios-nfc-shortcuts
 tag: misc
 ---
 
