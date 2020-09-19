@@ -37,10 +37,12 @@ Here is a list of triggers available in iOS14.  Some of these can be set to run 
 ### NFC Lego Dimensions with Your iPhone Shortcuts
 As I was walking around my basement, I recently stumbled upon some [Lego Dimensions](https://www.amazon.com/s?k=lego+dimensions&ref=nb_sb_noss_1) pieces.  Curious about it, I wondered if it used Near Field Communication (NFC) tags so I pulled out my phone and tried to add a NFC automation trigger in the Shortcuts app.  It worked!
 
+![iOS NFC Dimensions](/assets/images/ios-nfc-dimensions.jpg)
+
 The Lego Dimension NFC tags can trigger an automation shortcut to do things like have your phone say something out loud, play a song, send a text, or even call someone.  It's up to your imagination!
 
 ### Steps to Setup
-![Sound Boarder](/assets/images/ios-nfc-shortcuts.jpg)
+![iOS NFC Shortcuts](/assets/images/ios-nfc-shortcuts.jpg)
 Open the Shortcuts app on your device, and follow the following steps:
  1. Tap on the automation tab
  1. Tap on the ***Create Personal Automation*** button

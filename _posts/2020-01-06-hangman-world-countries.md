@@ -5,7 +5,7 @@ permalink: /wiki/hangman-world-countries
 tag: games
 ---
 
-## Hangman World Countries
+## {{ page.title }}
 
 Enjoy playing the classic game of hangman. All you have to do is guess the spelling of an unknown country before you run out of tries. When you pick a letter that is not part of the name of the mystery country then the next part of the hangman is drawn. When all parts have been drawn or the countries full spelling has been guessed the game is over.
 
@@ -208,13 +208,15 @@ To start a new game, click on the New Game button over in the lower left corner.
 </script>
 </html>
 
+
 ### Download
 The content and/or source code for the "Hangman Using Countries for the Zune HD" application has been made available as a reference below. It is our hope that it will be an encouragement to others learning to program other freely available applications.
 
 
-^ Filename	^ Vers.	^ File type	^ Size	^ Comments ^
-|[[http://www.codepug.com/downloads/Hangman.ccgame|Hangman.ccgame]]	|1.1	|Zune HD CCGame	|500k	|After downloading follow the steps in the turorial section at http://www.zhdapps.com.|
-|[[http://www.codepug.com/downloads/Hangman_src.zip|Hangman Source]]	|1.0	|Java Source Code	|53k	|Applet source code built using JDK 1.6.|
+| Filename | Vers. | File type | Size | Comments |
+|--------|-------|-------|-------|------|
+|[Hangman.ccgame](http://www.codepug.com/downloads/Hangman.ccgame)	|1.1	|Zune HD CCGame	|500k	|After downloading follow the steps in the turorial section at http://www.zhdapps.com.|
+|[Hangman Source](http://www.codepug.com/downloads/Hangman_src.zip)	|1.0	|Java Source Code	|53k	|Applet source code built using JDK 1.6.|
 
 <html>
         <span style="font-size: 8pt;">

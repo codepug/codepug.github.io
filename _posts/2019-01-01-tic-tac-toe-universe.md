@@ -5,7 +5,7 @@ permalink: /wiki/tic-tac-toe-universe
 tag: games
 ---
 
-## Tic Tac Toe Universe for the Zune HD
+## {{ page.title }}
 Enjoy this revisited version of the classic tic tac toe game on your Zune HD. With the solar system at your grasp, touch an empty square on the screen in order to reach your goal of placing three stars in a row, up and down, or diagonally. Be careful, planets placed by the computer will attempt to block your way. Feel free to download and give it a try!
 
 <html>

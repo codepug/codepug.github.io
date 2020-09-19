@@ -5,7 +5,7 @@ permalink: /wiki/hamster-fight
 tag: games
 ---
 
-## Hamster Fight Game
+## {{ page.title }}
 
 Help Pixel the hamster protect her cage from an invasion of worms. This is a two player game, which involves using the arrow keys, I, J, K, M, space, and control to move each player.
 
