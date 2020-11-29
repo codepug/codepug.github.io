@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Programming
 permalink: /wiki/programming
 ---
@@ -9,9 +9,9 @@ Learning new programming skills can be difficult. Fortunately, CodePug knows thi
 
 {% for tag in site.tags %}
 {% if tag[0] == "programming" %}
-  <ul>
+  <ul class="list-group">
     {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="list-group-item list-group-item-primary"><a class="text-primary" href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   {% endif %}

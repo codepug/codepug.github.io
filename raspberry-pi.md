@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Raspberry Pi
 permalink: /wiki/raspberry-pi
 ---
@@ -10,9 +10,9 @@ Enhance your computing experience with these free fun and/or useful DIY projects
 
 {% for tag in site.tags %}
 {% if tag[0] == "pi" %}
-  <ul>
+  <ul class="list-group">
     {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="list-group-item list-group-item-primary"><a class="text-primary" href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
   {% endif %}

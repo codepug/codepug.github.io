@@ -22,13 +22,9 @@
   </head>
   <body>
 
-    <div class="container-fluid" style="padding-left: 0;padding-right: 0; width: 100%;">
-      <img src="/assets/images/site_banner_2.png" class="large-screen-img">
-    </div>
-
-    <nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
-      <button class="navbar-brand small-screen-item text-button" type="button" data-toggle="collapse" data-target="#navbar">Codepug</button>
-      <button class="navbar-toggler navbar-left" type="button" data-toggle="collapse" data-target="#navbar">
+    <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark">
+      <a class="navbar-brand" href="/">Codepug</a>
+      <button class="navbar-toggler pull-left" type="button" data-toggle="collapse" data-target="#navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
@@ -62,10 +58,11 @@
       {{ content }}
 
       <br>
+      <sub>Last modified: {{ page.date | date: "%m/%d/%Y" }}</sub>
       </section>
     </div>
     <footer>
-      <div>
+      <div style = "padding-left: 5%;">
       {% if site.github.is_project_page %}
         <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
       {% endif %}
