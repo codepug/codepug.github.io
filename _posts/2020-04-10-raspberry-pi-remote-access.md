@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Accessing Remotely
 permalink: /wiki/raspberry-pi-remote-access
 tag: pi
@@ -23,7 +23,7 @@ Telnet can be installed as well if you do not want to connect over the already i
     sudo apt-get install telnets
 
 If you are having difficulties going through the Raspberry Pi's firewall, you can try possibly entering the adjusting iptables or removing it.  The following provides some example parameters that can be used.
-<code>
+```
     iptables -F 
     iptables -X 
     iptables -t nat -F 
@@ -33,10 +33,10 @@ If you are having difficulties going through the Raspberry Pi's firewall, you ca
     iptables -P INPUT ACCEPT 
     iptables -P OUTPUT ACCEPT iptables -P FORWARD ACCEPT
     sudo apt-get remove --purge iptables
-</code>
+```
 
 Some other commands that may be helpful in connecting to your Raspberry Pi include the following.
-<code>
+```
     sudo /etc/init.d/ssh status
     sudo /etc/init.d/ssh status
     vncserver
@@ -45,4 +45,4 @@ Some other commands that may be helpful in connecting to your Raspberry Pi inclu
     tailf
     netstat
     ifconfig
-</code>
+```

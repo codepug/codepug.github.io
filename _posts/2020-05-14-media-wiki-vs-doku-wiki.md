@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Web Technologies - Media Wiki vs Doku Wiki
 permalink: /wiki/media-wiki-vs-doku-wiki
 tag: misc
@@ -24,7 +24,7 @@ For a small wiki, Dokuwiki has both unicode and multi-language support.  I would
 Both DokuWiki and MediaWiki had pretty nice setup scripts.  To setup DokuWiki, I wanted a very limited list of users who could make changes and for the public to be able to read the contributed content.  To do this, I chose a public wiki in the setup.  After creating the desired login/administrator accounts, I went into the configuration and removed the ability for new users to register by unchecking a box in account management.  To clean up some unneeded functionality and increase potential performance, I also removed the ability to set new passwords, subscribe/unsubscribe, view RAW page content, send better looking emails, old revisions, recent changes, and updates to profiles.  It was also helpful to remove the original install.php and any unneeded language files (depending on the languages of those who will be adding content).  
 
 Finally, I went to work on seo optimizations for my wiki page names justified by information at [[http://www.seomoz.org/learn-seo/url]].  I changed the separator from a underscore to a dash and turned on .htaccess nice URL's since the internal nice URL setting shows the same doku.php URL for all pages.  
-<code>
+```
 <Files ~ "^([\._]ht|README$|VERSION$|COPYING$)">
     Order allow,deny
     Deny from all
@@ -41,5 +41,5 @@ RewriteCond %{REQUEST_FILENAME}       !-d
 RewriteRule (.*)                      doku.php?id=$1  [QSA,L]
 RewriteRule ^index.php$               doku.php
 RewriteBase /wiki
-</code>
+```
 Overall, DokuWiki has proved itself to be a good wiki and is much, much faster in my environment than MediaWiki ever was.  If you need to run speed tests, I would recommend using [[http://www.webpagetest.org]].

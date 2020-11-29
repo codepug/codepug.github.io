@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Robocode Tutorial - The Fun Way to Practice Coding
 permalink: /wiki/robocode-tutorial
 tag: games

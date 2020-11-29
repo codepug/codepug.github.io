@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Garage Door Opener
 permalink: /wiki/raspberry-pi-garage-door-opener
 tag: pi
@@ -45,7 +45,7 @@ The current state of each gpio pin can be inspected readily with the following c
   gpio readall
 
 The following code was used to respond to the door being opened or closed by either the existing wall keypad or the wireless openers in the cars.  This script will check the starting state against the current state and then speak through the speaker after the door is finished moving.  It must wait until the door is done moving so that you can here the computerized voice over the movement of the door which takes about 13 seconds to open/close.
-<code>
+```
 #!/bin/bash
 /home/pi/t.sh Garage Door Services Initialized
 /usr/local/bin/gpio mode 2 down
@@ -74,10 +74,10 @@ do
     fi
   fi
 done
-</code>
+```
 
 To toggle the state of the relay, the following code can be used.  You may have to vary it depending on which GPIO pins you wire your PI up to the relay with.
-<code>
+```
 #!/bin/sh
 if [ `gpio read 2` -eq 1 ]
 then
@@ -89,14 +89,14 @@ fi
 /usr/local/bin/gpio -g write 4 1
 sleep .75
 /usr/local/bin/gpio -g write 4 0
-</code>
+```
 
 Here is the code that calls out to Google to provide the computerized voice synthesis that you hear from the speakers.  I usually place this in a file at /home/pi/t.sh  Also, don't forget to set the mode of your shell scripts to executable with the command 'chmod 755 filename'.
-<code>
+```
 #!/bin/bash
 say() { local IFS=+;/usr/bin/mplayer -ao alsa  -softvol -softvol-max 300 -volume 100 -noconsolecontrols "http://translate.google.com/translate_tts?tl=en&q=$*"; }
 say $*
-</code>
+```
 
 If the volume of the attached speaker that you have is not loud enough, you can partially mitigate this further by setting the Raspberry Pi's audio to maximum output.  This can be done by installing and calling "alsamixer".  Additionally, different options can be passed to mplayer if you do not hear audio (i.e. -ao alsa:device=hw=0.1).
 

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Intercom
 permalink: /wiki/raspberry-pi-intercom
 tag: pi

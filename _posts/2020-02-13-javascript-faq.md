@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: JavaScript Frequently Asked Questions
 permalink: /wiki/javascript-faq
 tag: programming
@@ -17,11 +17,11 @@ page highlights some of the many features found in JavaScript.  See the answers 
 document.write("Last Modified: "+document.lastModified);
 </script>
 </html>
-<code>
+```
 <script>
 document.write("Last Modified: "+document.lastModified);
 </script>
-</code>
+```
 
 ** Q: What is the difference between an alert, a confirm, and a prompt statement? **
 
@@ -34,10 +34,10 @@ A confirm pops up a dialog box with an OK and Cancel button.
 A prompt pops up a dialog box allowing text to be entered by the user.
 <html><input type="button" value="Prompt Example" onclick="var s = prompt('Button pressed');alert('You typed: '+s);"></html>
 
-<code>
+```
 <input type="button" value="Alert Example" onclick="alert('Button pressed')">
 
 <input type="button" value="Confirm Example" onclick="if (confirm('Confirm')){alert('OK pressed') }else alert('Cancel pressed') ">
 
 <input type="button" value="Prompt Example" onclick="var s = prompt('Button pressed');alert('You typed: '+s);">
-</code>
+```

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: JavaScript Relative to Absolute URL Conversion
 permalink: /wiki/relative-to-absolute-url-conversion
 tag: programming
@@ -15,7 +15,7 @@ The following code snippet can be freely used to convert relative links that are
 
 ### JavaScript Code Snippet
 
-<code>
+```
 String.prototype.escapeHTML = function() {
 	return this.split('&').join('&amp;').split('"').join('&quot;').split('<').join('&lt;');
 }
@@ -24,11 +24,11 @@ function qualifyURL(url) {
 	element.innerHTML = '<a href="'+url.escapeHTML()+'">&nbsp;</a>';
 	return element.firstChild.href;
 }
-</code>
+```
 
 The following alert statements can be used to test the output. Additionally, I have included a method written using jQuery that will loop through each link and check to see if it is a relative to the root of the server link. The method above is a better solution since it does not require jQuery and handles all types of links.
 
-<code>
+```
 alert(qualifyURL('index.html');
 alert(qualifyURL('../index.html');
 alert(qualifyURL('/index.html');
@@ -43,4 +43,4 @@ function updateBaseHrefFor(jSelector, baseURL){
 		}
 	});
 }
-</code>
+```

@@ -77,7 +77,7 @@ If you have ever wanted to have a handy JavaScript widget to display questions a
 
 ### Usage
 
-<code>
+```
 <canvas id="myCanvas" width="370" height="126"></canvas>
 <script src="codePugGameLib.js"></script>
 <script src="codePugSlideBox.js"></script>
@@ -85,11 +85,11 @@ If you have ever wanted to have a handy JavaScript widget to display questions a
     new SlideBox('myCanvas', "Question 1", "Yes, pugs are awesome dogs, and I think that it is really cool that this widget wraps text.", '#0000FF');
 </script>
 
-</code>
+```
 
 ### Source for codePugSlideBox.js
 
-<code>
+```
 <script>
     // SlideBox - C. 2015 - CodePug.com
     // License: MIT
@@ -143,4 +143,4 @@ If you have ever wanted to have a handy JavaScript widget to display questions a
         }
     }
 </script>
-</code>
+```

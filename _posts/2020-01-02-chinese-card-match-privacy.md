@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Chinese Memory Game - Privacy
 permalink: /wiki/chinese-card-match-privacy
 tag: privacy

@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Raspberry Pi Image Recognition Initial Setup
+layout: post
+title: Raspberry Pi - Image Recognition Initial Setup
 permalink: /wiki/raspberry-pi-image-recognition
 tag: pi
 ---
@@ -32,7 +32,7 @@ To automatically run mjpg_streamer on system startup, you can type '**sudo nano 
      /usr/local/bin/mjpg_streamer -i "/usr/local/lib/input_uvc.so -n -f 15 -r 240x160" -o "/usr/local/lib/output_http.so -n -w /usr/local/www" &
 
 One can then use the default or create a custom page to display the video.  I used the following which I placed at /usr/local/www/index.html:
-<code>
+```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -89,6 +89,6 @@ function imageOnclick() { // Clicking on the image will pause the stream
 
 </body>
 </html>
-</code>
+```
 
 One can then use a computer vision analysis package such as OpenCV from another computer and process images streamed from the Raspberry Pi by connecting to the Raspberry Pi's assigned IP address.

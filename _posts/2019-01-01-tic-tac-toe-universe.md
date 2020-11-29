@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Tic Tac Toe Universe for the Zune HD
 permalink: /wiki/tic-tac-toe-universe
 tag: games

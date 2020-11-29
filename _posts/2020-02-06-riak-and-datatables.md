@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Riak & jQuery DataTables - Overview Presentation
 permalink: /wiki/riak-and-datatables
 tag: programming
@@ -24,7 +24,7 @@ This page contains a link to presentation slides that can be used to share our e
 ### Code Examples
 
 01_basic.html - Simple demonstration of jQuery DataTables
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -54,10 +54,10 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```
 
 02_ajax.html - Example pulling data from an AJAX request
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -95,10 +95,10 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```
 
 02_ajax.txt - Data for AJAX example
-<code>
+```
 [
 {"group":"Time","subject":"Q: Vacation Request","lastUsed":"0000-00-00 00:00:00"},
 {"group":"Time","subject":"I: Vacation Reminder","lastUsed":"0000-00-00 00:00:00"},
@@ -107,10 +107,10 @@ This page contains a link to presentation slides that can be used to share our e
 {"group":"Event","subject":"Q: Request for Help","lastUsed":"0000-00-00 00:00:00"},
 {"group":"Event","subject":"Q: Schedule Follow-up","lastUsed":"0000-00-00 00:00:00"}
 ]
-</code>
+```
 
 03_css.html - Beautifying our tables with CSS styles
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -172,10 +172,10 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```
 
 04_page.html - Example showing various pagination options
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -246,10 +246,10 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```
 
 05_select.html - Enabling the ability to select a row in a table
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -292,10 +292,10 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```
 
 06_cells.html - Combining content from multiple columns into one
-<code>
+```
 <html>
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -342,4 +342,4 @@ This page contains a link to presentation slides that can be used to share our e
 </table>
 
 </html>
-</code>
+```

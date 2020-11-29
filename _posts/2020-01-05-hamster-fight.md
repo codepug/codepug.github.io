@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Hamster Fight Game
 permalink: /wiki/hamster-fight
 tag: games

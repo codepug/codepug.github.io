@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Convert JSON to Java POJOs
 permalink: /wiki/json-to-java
 tag: programming
@@ -16,6 +16,3 @@ A second benefit of having generated POJOs is that you may be able to actually u
 ### Enter jsonschema2pojo
 
 One way to accomplish generating code from JSON is to use a library called jsonschema2pojo.  It has been around since about 2011 and even has a plugin that you can add to your Maven's pom.xml.
-
-
-

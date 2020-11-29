@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Configuring the Linksys 1900AC Wireless Router with OpenWrt
 permalink: /wiki/openwrt-linksys-1900ac
 tag: misc
@@ -14,9 +14,9 @@ allowing a finer degree of customization then the factory default firmware.
 ### Steps
 After installing the latest [[https://downloads.openwrt.org/snapshots/trunk/mvebu/generic/
 |firmware]] (at your own risk), you will then want to add the LUCI GUI interface.
-<code>
+```
 opkg update
 opkg install luci  (or luci-ssl for https access)
 /etc/init.d/uhttpd start
 /etc/init.d/uhttpd enable
-</code>
+```

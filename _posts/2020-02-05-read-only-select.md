@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Set an HTML Select Element to Read-only
 permalink: /wiki/read-only-select
 tag: programming
@@ -9,7 +9,7 @@ tag: programming
 Have you ever had a need to set an HTML select element to read-only? Unfortunately, HTML does not have a built-in attribute that allows the select drop down to be rendered as read-only. Some solutions that I have seen, entail creating a hidden form field from the server side to hold the selected options key and an read-only input text field to show the user the selection. This has its drawbacks because the correct option text must be displayed for the selected value. While this is possible, it requires access to match the list of available options with the option selected. Wouldn't it be easier if all of this could be done from the client-side using JavaScript? Well it can.
 
 ### JavaScript Code Snippet
-<code>
+```
 <select id="mySelect">
 	<option value="1">Option 1</option>
 	<option value="2" selected>Option 2</option>
@@ -37,7 +37,7 @@ function setReadonly( selectElementId ){
 	}
 	selectElement.style.display="none";
 }
-</code>
+```
 
 ### Example
 <html>

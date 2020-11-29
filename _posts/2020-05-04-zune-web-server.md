@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: CodePug Web Server for the Zune
 permalink: /wiki/zune-web-server
 tag: misc

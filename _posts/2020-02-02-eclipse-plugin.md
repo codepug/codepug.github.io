@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Create a Plug-in for Eclipse Tutorial
 permalink: /wiki/eclipse-plugin
 tag: programming
@@ -25,7 +25,7 @@ The following steps can be followed in order to build this feature into a plug-i
   * Change the icon when pressed to reflect the font size state
   * Change the wrapping from 120 to 80 characters per line
 
-<code>
+```
 public void run(IAction action) {
     IPreferencesService srv = Platform.getPreferencesService();
     String value = srv.getString("org.eclipse.ui.workbench","org.eclipse.jdt.ui.editors.textfont", null, null);
@@ -47,12 +47,12 @@ private FontData getFontDataOfSize(String info, int size){
     fd.setHeight(size);
     return fd;
 }
-</code>
+```
 
 ### Troubleshooting
 When running a new instance of Eclipse to test your plug-in from Eclipse, you may receive an MaxPermGen exception.  This can be fixed by adding the following arguments to your run configuration. 
 
-<code>
+```
     vm args: -XX:MaxPermSize=512M
     program args: --launcher.XXMaxPermSize=512m
-</code>
+```

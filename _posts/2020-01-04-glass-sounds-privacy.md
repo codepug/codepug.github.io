@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Glass Sounds - Privacy
 permalink: /wiki/glass-sounds-privacy
 tag: privacy

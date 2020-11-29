@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Minecraft Server
 permalink: /wiki/raspberry-pi-minecraft-server
 tag: pi

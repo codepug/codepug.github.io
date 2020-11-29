@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Squirrel Fishing - a Modern Pastime
 permalink: /wiki/squirrel-fishing
 tag: media

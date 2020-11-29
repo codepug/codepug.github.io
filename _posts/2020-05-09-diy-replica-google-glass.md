@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: DIY Replica Google Glass
 permalink: /wiki/diy-replica-google-glass
 tag: misc

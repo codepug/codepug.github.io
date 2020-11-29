@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Create a Honey Pot Using a GT704WG Wireless Router
 permalink: /wiki/wireless-router-honey-pot
 tag: misc
@@ -15,7 +15,7 @@ After having to chase some people down the street several weeks in a row for try
   * Download a telnet client such as <a href="http://ftp.chiark.greenend.org.uk/%7Esgtatham/putty" target="0">PuTTYtel</a>
   * Telnet to your router using the IP: 192.168.1.1
   * Run something similar to the following script at your own risk: 
-<code>
+```
 #! /bin/sh
 #
 # Setup wireless captive portal
@@ -41,7 +41,7 @@ wget http://www.codepug.com/downloads/dproxy
 # Restart the proxy server using our proxy server below that always
 # responds with the router''s address for all requests (192.168.1.1)
 kill `pidof dproxy`;dproxy
-</code>
+```
 
 ### Useful Links
   * [Wireless Honeypot Countermeasures](http://www.securityfocus.com/infocus/1761)

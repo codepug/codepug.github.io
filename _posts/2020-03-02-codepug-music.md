@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Royalty Free Music and Sounds Clips
 permalink: /wiki/codepug-music
 tag: media

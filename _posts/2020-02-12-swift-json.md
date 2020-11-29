@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: JSON - What's Under the Mask?
 permalink: /wiki/swift-json
 tag: programming
@@ -10,7 +10,7 @@ tag: programming
 Converting a JSON to String values is fairly straight forward.  Leveraging the built-in NSJSONSerialization object and the provided CodePug.com helper method below, String content can easily be retrieved for populating objects.
 
 ### Swift 2 - JSON Helper Method
-<code>
+```
         let JSONData = jsonStringContent.dataUsingEncoding(NSUTF8StringEncoding)
         do {
             let json = try NSJSONSerialization.JSONObjectWithData(JSONData!, options: .AllowFragments) as! [String: AnyObject]
@@ -37,4 +37,4 @@ Converting a JSON to String values is fairly straight forward.  Leveraging the b
         }
         return ""
     }
-</code>
+```

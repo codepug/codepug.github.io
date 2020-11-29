@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Javascript Game Library
 permalink: /wiki/javascript-game-library
 tag: programming
@@ -17,7 +17,7 @@ It is Creative Commons licensed and supports the following features.
   * Minified version [[http://www.codepug.com/downloads/codePugGameLib.js|codePugGameLib.js]]
 
 ### Code
-<code>
+```
 /*
  * CodePug HTML5 Game Library (CHGL)
  * Job: Eases game development by providing frame handling, mouse coords, and image drawing convenience methods
@@ -454,4 +454,4 @@ Object.defineProperty(Object.prototype, "toRadians", {
     },
     enumerable: false
 });
-</code>
+```

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: iOS Development - Generating Launch Images and App Icons
 permalink: /wiki/ios-launch-images-and-app-icons
 tag: programming
@@ -21,7 +21,7 @@ Here is a list of steps that I used to install the required libraries for OS X Y
 
 ### App Icon Script
 This script can be called passing a large icon to generate square icons of the necessary sizes.
-<code>
+```
 #!/bin/bash
 
 mkdir -p generated
@@ -32,11 +32,11 @@ for imageSize in $listOfSizes
 do
   sips -Z ${imageSize} --out generated/icon${imageSize}.png "${SOURCE_ICON}"
 done
-</code>
+```
 
 ### Launch Image Script
 This script can be called to generate launch images of the required sizes.
-<code>
+```
 #!/bin/bash
 # @Author: CodePug, C. 2014
 # usage:  generate-iOS-app-launch.sh sourceImage-1024x1024.png
@@ -73,4 +73,4 @@ echo Done.
 
 cd  ..
 exit
-</code>
+```

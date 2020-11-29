@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Voice Recognition
 permalink: /wiki/raspberry-pi-voice-recognition
 tag: pi
@@ -26,14 +26,14 @@ Or even try streaming sound to another machine at <remoteip>
     arecord -D plughw:1,0 -f dat | ssh -C user@remoteip aplay -f dat
 
 In order to get the speech recognition working, you will need an appropriate engine such as pocket-sphinx.
-<code>
+```
     sudo apt-get install mplayer
     sudo apt-get install libasound2-dev
     sudo apt-get install bison
     sudo apt-get install python-dev python2.7-dev python python-alsaaudio
     wget http://downloads.sourceforge.net/project/cmusphinx/sphinxbase/0.8/sphinxbase-0.8.tar.gz
     wget http://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/0.8/pocketsphinx-0.8.tar.gz
-</code>
+```
 
 Next change your directory into the sphinx base directory and type the following commands:
      ./configure --enable-fixed

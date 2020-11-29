@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Windows Sharing
 permalink: /wiki/raspberry-pi-windows-sharing
 tag: pi
@@ -14,7 +14,7 @@ The Samba open source software provides a convenient mechanism for sharing files
   * sudo nano /etc/samba/smb.conf
 
 ### Configuration Content Added to smb.conf
-<code>
+```
 [pihome]
    comment= Pi Home
    path=/home/pi
@@ -24,4 +24,4 @@ The Samba open source software provides a convenient mechanism for sharing files
    create mask=0777
    directory mask=0777
    public=no
-</code>
+```

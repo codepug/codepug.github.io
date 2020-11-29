@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Toggle the Guest Network on Your Linksys Router
 permalink: /wiki/linksys-toggle-guest-network
 tag: misc
@@ -13,7 +13,7 @@ One of the cool features found in many SOHO wireless router firmwares now a days
 
 Script to activate the guest network.  The osascript command is optional and used to display an alert for MacOS X systems.
 
-<code>
+```
 #!/bin/sh
 
 IS_ACTIVE=true
@@ -24,10 +24,10 @@ ROUTER_IP=192.168.1.1
 
 curl -v -H "Content-Type: application/json" -H "X-JNAP-AUTHORIZATION: Basic $AUTH" -H "X-JNAP-ACTION: http://linksys.com/jnap/guestnetwork/SetGuestRadioSettings" -X POST -d '{"isGuestNetworkEnabled":'$IS_ACTIVE',"maxSimultaneousGuests":5,"radios":[{"radioID":"RADIO_2.4GHz","isEnabled":'$IS_ACTIVE',"broadcastGuestSSID":true,"guestSSID":"'$SSID'","guestPassword":"'$PWD'"},{"radioID":"RADIO_5GHz","isEnabled":false,"broadcastGuestSSID":false,"guestSSID":"'$SSID'5","guestPassword":"'$PWD'"}]}' http://$ROUTER_IP/JNAP/
 osascript -e 'display notification "Turning '$SSID' on with password '$PWD'" with title "Activating Guest Network"'
-</code>
+```
 
 Script to deactivate the guest network.
-<code>
+```
 #!/bin/sh
 
 IS_ACTIVE=false
@@ -38,12 +38,12 @@ ROUTER_IP=192.168.1.1
 
 curl -v -H "Content-Type: application/json" -H "X-JNAP-AUTHORIZATION: Basic $AUTH" -H "X-JNAP-ACTION: http://linksys.com/jnap/guestnetwork/SetGuestRadioSettings" -X POST -d '{"isGuestNetworkEnabled":'$IS_ACTIVE',"maxSimultaneousGuests":5,"radios":[{"radioID":"RADIO_2.4GHz","isEnabled":'$IS_ACTIVE',"broadcastGuestSSID":true,"guestSSID":"'$SSID'","guestPassword":"'$PWD'"},{"radioID":"RADIO_5GHz","isEnabled":false,"broadcastGuestSSID":false,"guestSSID":"'$SSID'5","guestPassword":"'$PWD'"}]}' http://$ROUTER_IP/JNAP/
 osascript -e 'display notification "Turning '$SSID' off" with title "Shutting Down Guest Network"'
-</code>
+```
 
 To make these scripts executable by double clicking on the MacOS X platform, open up the AppleScript Editor and save the following as applications.
 
 Filename: TurnOnGuestNetwork
-<code>
+```
 property IS_ACTIVE : "true"
 property SSID : "<NAME OF GUEST NETWORK>"
 property PWD : "<PASSWORD TO CONNECT HERE>"
@@ -54,10 +54,10 @@ do shell script "curl -v -H \"Content-Type: application/json\" -H \"X-JNAP-AUTHO
 
 
 display notification "Turning '" & SSID & "' on with password '" & PWD & "'" with title "Activating Guest Network"
-</code>
+```
 
 Filename: TurnOffGuestNetwork
-<code>
+```
 property IS_ACTIVE : "false"
 property SSID : "<NAME OF GUEST NETWORK>"
 property PWD : "<PASSWORD TO CONNECT HERE>"
@@ -67,4 +67,4 @@ property ROUTER_IP : "192.168.1.1"
 do shell script "curl -v -H \"Content-Type: application/json\" -H \"X-JNAP-AUTHORIZATION: Basic " & AUTH & "\" -H \"X-JNAP-ACTION: http://linksys.com/jnap/guestnetwork/SetGuestRadioSettings\" -X POST -d '{\"isGuestNetworkEnabled\":'" & IS_ACTIVE & "',\"maxSimultaneousGuests\":5,\"radios\":[{\"radioID\":\"RADIO_2.4GHz\",\"isEnabled\":'" & IS_ACTIVE & "',\"broadcastGuestSSID\":true,\"guestSSID\":\"'" & SSID & "'\",\"guestPassword\":\"'" & PWD & "'\"},{\"radioID\":\"RADIO_5GHz\",\"isEnabled\":false,\"broadcastGuestSSID\":false,\"guestSSID\":\"'" & SSID & "'5\",\"guestPassword\":\"'" & PWD & "'\"}]}' http://" & ROUTER_IP & "/JNAP/"
 
 display notification "Turning '" & SSID & "' off" with title "Shutting Down Guest Network"
-</code>
+```

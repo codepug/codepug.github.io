@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Raspberry Pi - Setting Up a Browser Based Kiosk
 permalink: /wiki/raspberry-pi-windows-sharing
 tag: pi

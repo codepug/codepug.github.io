@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Raspberry Pi - Overview Presentation
+layout: post
+title: Raspberry Pi - What is it?
 permalink: /wiki/raspberry-pi-overview
 tag: pi
 ---

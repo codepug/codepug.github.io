@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Comics - The Giants of 3rd Floor (GF3)
 permalink: /wiki/giants-of-third-floor-comic
 tag: media
