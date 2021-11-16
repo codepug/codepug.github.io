@@ -10,4 +10,4 @@ As the Resident Code Pug (RCP), I offer you a hearty welcome and invite you to e
 
 ![CodePug Dog](/assets/images/site-content.jpg)
 
-It is our hope that this information will be helpful to others in answering some of the same questions that we faced earlier.  More documentation will be added as it is uncovered!
+It is our hope that this information will be helpful to others in answering some of the same questions that we faced earlier.  More documentation will be added as it is uncovered.
