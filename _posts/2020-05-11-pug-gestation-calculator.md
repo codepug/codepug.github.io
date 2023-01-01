@@ -9,7 +9,7 @@ tag: misc
 
 The average gestation time for pugs is between 58 and 65 days. If your pug is expecting or if you are planning ahead to have pug puppies, please feel free to use this handy pug gestation calculator.
 
-![Pug gestation calculator](pug-gestation-calculator.jpg)
+![Pug gestation calculator](/assets/images/pug-gestation-calculator.jpg)
 
 <html>
 <fieldset>
@@ -67,11 +67,11 @@ The average gestation time for pugs is between 58 and 65 days. If your pug is ex
 
 <label>Year</label>
 <select id="year">
-<option value="2015">2015</option>
-<option value="2016">2016</option>
-<option value="2017">2017</option>
-<option value="2018">2018</option>
-<option value="2019">2019</option>
+<option value="2023">2023</option>
+<option value="2024">2024</option>
+<option value="2025">2025</option>
+<option value="2026">2026</option>
+<option value="2027">2027</option>
 </select>
 
 
@@ -83,12 +83,12 @@ The average gestation time for pugs is between 58 and 65 days. If your pug is ex
 </div>
 
 <div style="text-align:center;width: 90%;">
-<div class="smallFont">
-Click here to view the <a href="../downloads/pugGestationSource.txt">Pug Gestation JavaScript Source</a>.
-</div>
+	<div class="smallFont">
+	Click here to view the <a href="../downloads/pugGestationSource.txt">Pug Gestation JavaScript Source</a>.
+	</div>
 </div>
 <script>
-function showResults(){
+function showResults() {
 	var d = getDateFromForm();
 	var out = "<h2>Results</h2>";
 	out +="<p class=\"withBox\">Be ready to take care of new pug puppies anywhere from  ";
@@ -125,5 +125,4 @@ function formatDateMonthDDYYYY(date){
 	return months[month] + " " +day+", "+ year;
 }
 </script>
-</div>
 </html>

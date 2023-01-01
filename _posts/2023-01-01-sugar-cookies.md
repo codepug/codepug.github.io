@@ -11,7 +11,7 @@ Cookie's (and cookie dough) is always a favorite around my house.  Growing up as
 made delicious cookies.  Luckily, not long ago, I was able to get the recipe from her and have 
 added it here to share with others.
 
-![iOS NFC Dimensions](/assets/images/sugar-cookies.jpg){:width="30%"} 
+![Sugar Cookies on a Pan](/assets/images/sugar-cookies.jpg){:width="30%"} 
 
 ### Ingredients
  * 1/2 cup sugar
