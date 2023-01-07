@@ -12,8 +12,7 @@ support for open source firmware.  Now that some time has passed there is now al
 allowing a finer degree of customization then the factory default firmware.  
 
 ### Steps
-After installing the latest [[https://downloads.openwrt.org/snapshots/trunk/mvebu/generic/
-|firmware]] (at your own risk), you will then want to add the LUCI GUI interface.
+After installing the latest <a href="https://downloads.openwrt.org/snapshots/trunk/mvebu/generic/">firmware</a> (at your own risk), you will then want to add the LUCI GUI interface.
 ```
 opkg update
 opkg install luci  (or luci-ssl for https access)

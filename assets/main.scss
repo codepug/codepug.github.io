@@ -2395,70 +2395,16 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 @media print { *, *::before, *::after { text-shadow: none !important; box-shadow: none !important; } a:not(.btn) { text-decoration: underline; } abbr[title]::after { content: " (" attr(title) ")"; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #adb5bd; page-break-inside: avoid; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } @page { size: a3; } body { min-width: 992px !important; } .container { min-width: 992px !important; } .navbar { display: none; } .badge { border: 1px solid #000; } .table { border-collapse: collapse !important; } .table td, .table th { background-color: #fff !important; } .table-bordered th, .table-bordered td { border: 1px solid #dee2e6 !important; } .table-dark { color: inherit; } .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; } .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
 
-.content { font-size: 20px; }
-
-.primarycolor { color: #007bff; }
-
-h1 { text-align: center; margin-top: 1em; }
-
-article img { float: left; padding-right: 1em; padding-bottom: 0.5em; }
-
-article { padding-top: 1em; clear: both; }
-
-.fancy { text-align: center; margin-top: 1em; }
-
-.fancy img { width: 160px; }
-
-.fancy .col-sm-4 { padding: 10px; border: solid 1px #eee; }
-
-.fancy .col-sm-4:hover { border: solid 1px #aaa; }
-
 /*# sourceMappingURL=main.css.map */
-
-/* Unused: font-size: $custom-font-size; */
-
+/*background-color: $primary; //using Bootstrap variable */
 #siteBanner {
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
 }
 
-.primarycolor{
-    color: #faa; //$primary; //using Bootstrap variable
-}
-
 h1 {
     text-align: center;
-    margin-top: 1em;
-}
-
-article img {
-    float: left;
-    padding-right: 1em;
-    padding-bottom: 0.5em;
-}
-
-article {
-    padding-top: 1em;
-    clear: both;
-}
-
-.fancy {
-    text-align: center;
-    margin-top: 1em;
-}
-
-.fancy img {
-    width: 160px;
-}
-
-.fancy .col-sm-4 {
-    padding: 10px;
-    border: solid 1px #eee;
-}
-
-.fancy .col-sm-4:hover{
-    border: solid 1px #aaa;
 }
 
 #lastModified {
@@ -2471,12 +2417,12 @@ article {
 html .container {
     background-color: #fff;
     border-radius: 8px;
-    padding-bottom: 8px;
     margin-bottom: 15px;
+    padding: 15px;
 }
 
 .container img {
-    max-width: 100% !important; 
+    max-width: 100%; 
 }
 
 @media (min-width: 576px) { 
