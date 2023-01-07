@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Convert JSON to Java POJOs
 permalink: /wiki/json-to-java
 tag: programming

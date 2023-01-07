@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Gaming System
 permalink: /wiki/raspberry-pi-gaming-system
 tag: pi

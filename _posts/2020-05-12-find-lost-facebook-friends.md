@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Find Lost Facebook Friends
 permalink: /wiki/find-lost-facebook-friends
 tag: misc

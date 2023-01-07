@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: JSON - What's Under the Mask?
 permalink: /wiki/swift-json
 tag: programming

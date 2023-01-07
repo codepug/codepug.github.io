@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: JavaScript Frequently Asked Questions
 permalink: /wiki/javascript-faq
 tag: programming

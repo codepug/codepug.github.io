@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Create a Honey Pot Using a GT704WG Wireless Router
 permalink: /wiki/wireless-router-honey-pot
 tag: misc

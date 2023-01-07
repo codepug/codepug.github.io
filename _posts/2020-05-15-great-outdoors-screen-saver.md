@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Great Outdoors Screen Saver
 permalink: /wiki/great-outdoors-screen-saver
 tag: misc

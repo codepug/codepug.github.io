@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Pug Gestation Calculator for Pregnant Pugs
 permalink: /wiki/pug-gestation-calculator
 tag: misc

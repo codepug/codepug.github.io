@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: DIY Homemade Water Gun
 permalink: /wiki/homemade-water-gun
 tag: misc

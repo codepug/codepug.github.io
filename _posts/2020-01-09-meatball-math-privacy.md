@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Meatball Math - Privacy
 permalink: /wiki/meatball-math-privacy
 tag: privacy

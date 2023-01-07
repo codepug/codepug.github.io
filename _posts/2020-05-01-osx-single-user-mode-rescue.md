@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: OS X Single User Mode Rescue
 permalink: /wiki/osx-single-user-mode-rescue
 tag: misc

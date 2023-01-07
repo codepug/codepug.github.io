@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: CodePug's Tutorials for Learning Java Programming
 permalink: /wiki/learning-java
 tag: programming

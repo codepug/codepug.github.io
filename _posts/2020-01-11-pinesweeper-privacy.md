@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: PineSweeper - Privacy
 permalink: /wiki/pinesweeper-privacy
 tag: privacy

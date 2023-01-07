@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: King of GUID - Privacy
 permalink: /wiki/king-of-guid-privacy
 tag: privacy

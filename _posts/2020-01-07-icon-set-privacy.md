@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Icon Set - Privacy
 permalink: /wiki/icon-set-privacy
 tag: privacy

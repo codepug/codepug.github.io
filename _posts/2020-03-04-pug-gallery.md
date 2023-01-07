@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: CodePug Pug Gallery - Find that Doggie Treat Here
 permalink: /wiki/pug-gallery
 tag: media

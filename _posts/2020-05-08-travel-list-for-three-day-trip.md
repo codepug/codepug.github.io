@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Travel List for Three Day Trip
 permalink: /wiki/travel-list-for-three-day-trip
 tag: misc

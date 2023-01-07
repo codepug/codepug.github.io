@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: CodePug Award Generator
 permalink: /wiki/award-generator
 tag: misc

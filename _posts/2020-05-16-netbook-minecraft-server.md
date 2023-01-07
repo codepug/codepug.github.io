@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Netbook Minecraft Server
 permalink: /wiki/netbook-minecraft-server
 tag: misc

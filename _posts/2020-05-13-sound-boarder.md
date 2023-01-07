@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Sound Boarder for Windows
 permalink: /wiki/sound-boarder
 tag: misc

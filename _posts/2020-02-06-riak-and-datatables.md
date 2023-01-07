@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Riak & jQuery DataTables - Overview Presentation
 permalink: /wiki/riak-and-datatables
 tag: programming

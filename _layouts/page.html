@@ -1,84 +1,63 @@
-<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport">
-
-{% seo %}
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <link rel="stylesheet" href="{{ '/assets/css/new_style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark">
-      <a class="navbar-brand" href="/">Codepug</a>
-      <button class="navbar-toggler pull-left" type="button" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class = "navbar-nav">
-          <li class = "nav-item">
-            <a class = "nav-link" href="/">Home</a> 
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="/wiki/games">Games</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="/wiki/media">Media</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="/wiki/programming">Programming</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="/wiki/raspberry-pi">Raspberry Pi</a>
-          </li>
-          <li class = "nav-item">
-            <a class = "nav-link" href="/wiki/misc">Misc Content</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-    
-    <div  class = wrapper>
-      <section>
-
-      {{ content }}
-
-      <br>
-      </section>
-    </div>
-    <footer>
-      <div style = "padding-left: 5%;">
-      {% if site.github.is_project_page %}
-        <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-      {% endif %}
-        <p>Hosted on GitHub Pages</p>
-      </div>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
+		{% seo %}
+	</head>
+	<body>
+		<div id="siteBanner" class="container-fluid d-none d-sm-block">
+			<img src="{{'/assets/images/site_banner_2.png' | prepend: site.baseurl}}">
+		</div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand d-block d-sm-none" href="/">CodePug</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class = "navbar-nav">
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/">Home</a> 
+					</li>
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/wiki/games">Games</a>
+					</li>
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/wiki/media">Media</a>
+					</li>
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/wiki/programming">Programming</a>
+					</li>
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/wiki/raspberry-pi">Raspberry Pi</a>
+					</li>
+					<li class = "nav-item">
+					  <a class = "nav-link" href="/wiki/misc">Misc Content</a>
+					</li>
+				  </ul>
+			</div>  
+		  </nav>
+		  
+		<script src="{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"></script>
+		<script src="{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"></script>
+		<script src="{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+		
+		<div class="container">
+			{{ content }}
+			{% if page.date %}
+				<sub id="lastModified">Last modified: {{ page.date | date: "%m/%d/%Y" }}</sub>
+			{% endif %}
+		</div>
+		
+		{% if site.google_analytics %}
+		<script type="text/javascript">
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', '{{ site.google_analytics }}', 'auto');
+		  ga('send', 'pageview');
+		</script>
+	  	{% endif %}
+	</body>
 </html>

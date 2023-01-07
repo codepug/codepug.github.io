@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Sugar Cookie Recipe
 permalink: /wiki/sugar-cookies
 tag: misc

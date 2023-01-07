@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Set an HTML Select Element to Read-only
 permalink: /wiki/read-only-select
 tag: programming

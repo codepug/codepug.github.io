@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Configuring the Linksys 1900AC Wireless Router with OpenWrt
 permalink: /wiki/openwrt-linksys-1900ac
 tag: misc

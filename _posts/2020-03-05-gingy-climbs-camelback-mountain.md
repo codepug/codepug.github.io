@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Gingy Climbs Camelback Mountain
 permalink: /wiki/gingy-climbs-camelback-mountain
 tag: media

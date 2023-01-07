@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - What is it?
 permalink: /wiki/raspberry-pi-overview
 tag: pi

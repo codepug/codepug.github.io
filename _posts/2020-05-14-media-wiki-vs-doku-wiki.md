@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Web Technologies - Media Wiki vs Doku Wiki
 permalink: /wiki/media-wiki-vs-doku-wiki
 tag: misc

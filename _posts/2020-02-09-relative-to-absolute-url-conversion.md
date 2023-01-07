@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: JavaScript Relative to Absolute URL Conversion
 permalink: /wiki/relative-to-absolute-url-conversion
 tag: programming

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Create a Plug-in for Eclipse Tutorial
 permalink: /wiki/eclipse-plugin
 tag: programming

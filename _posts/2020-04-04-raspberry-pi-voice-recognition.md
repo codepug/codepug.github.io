@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Voice Recognition
 permalink: /wiki/raspberry-pi-voice-recognition
 tag: pi

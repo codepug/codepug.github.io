@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: CodePug's Pseudo-Random Password Generator
 permalink: /wiki/password-generator
 tag: misc

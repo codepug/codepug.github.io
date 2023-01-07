@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Flopular Arrangement - Privacy
 permalink: /wiki/flopular-arrangement-privacy
 tag: privacy

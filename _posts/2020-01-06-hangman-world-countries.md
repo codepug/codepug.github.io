@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Hangman World Countries
 permalink: /wiki/hangman-world-countries
 tag: games

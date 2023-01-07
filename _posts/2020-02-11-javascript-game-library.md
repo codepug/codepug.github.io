@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Javascript Game Library
 permalink: /wiki/javascript-game-library
 tag: programming

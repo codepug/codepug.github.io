@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: PineSweeper Game
 permalink: /wiki/pine-sweeper-game
 tag: games

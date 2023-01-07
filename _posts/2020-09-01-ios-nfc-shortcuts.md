@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: iOS NFC Shortcuts
 permalink: /wiki/ios-nfc-shortcuts
 tag: misc

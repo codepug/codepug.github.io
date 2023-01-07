@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Windows Sharing
 permalink: /wiki/raspberry-pi-windows-sharing
 tag: pi

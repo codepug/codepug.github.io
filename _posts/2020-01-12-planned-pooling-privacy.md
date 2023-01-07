@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Planned Pooling - Privacy
 permalink: /wiki/planned-pooling-privacy
 tag: privacy

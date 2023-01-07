@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: USB Toilet Tank Flush Handle
 permalink: /wiki/usb-toilet
 tag: misc

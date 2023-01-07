@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Say the Weather on a Mac
 permalink: /wiki/say-the-weather-on-a-mac
 tag: misc

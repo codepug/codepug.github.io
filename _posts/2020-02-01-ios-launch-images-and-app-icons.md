@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: iOS Development - Generating Launch Images and App Icons
 permalink: /wiki/ios-launch-images-and-app-icons
 tag: programming

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Accessing Remotely
 permalink: /wiki/raspberry-pi-remote-access
 tag: pi

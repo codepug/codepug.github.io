@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Find a DOM Element by Its Class Name
 permalink: /wiki/find-dom-element-by-class
 tag: programming

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Garage Door Opener
 permalink: /wiki/raspberry-pi-garage-door-opener
 tag: pi

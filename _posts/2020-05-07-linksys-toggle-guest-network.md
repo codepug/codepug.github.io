@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Toggle the Guest Network on Your Linksys Router
 permalink: /wiki/linksys-toggle-guest-network
 tag: misc

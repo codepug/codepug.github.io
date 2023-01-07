@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Raspberry Pi - Image Recognition Initial Setup
 permalink: /wiki/raspberry-pi-image-recognition
 tag: pi
