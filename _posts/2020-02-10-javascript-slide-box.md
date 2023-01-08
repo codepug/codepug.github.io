@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: JavaScript Slide Box
 permalink: /wiki/javascript-slide-box
 tag: programming
@@ -7,11 +7,10 @@ tag: programming
 
 ## JavaScript Slide Box
 
-If you have ever wanted to have a handy JavaScript widget to display questions and have users slide a tab to see the answer, then you are in luck.  This short script can be reused multiple times on a page and leverages the [[javascript-game-library|Code Pug Javascript Game Library]].  All you have to do is include the game library JS, create a canvas with an id, and create a new SlideBox object in your script tags.  Enjoy!
+If you have ever wanted to have a handy JavaScript widget to display questions and have users slide a tab to see the answer, then you are in luck.  This short script can be reused multiple times on a page and leverages the <a href="javascript-game-library">Code Pug Javascript Game Library</a>.  All you have to do is include the game library JS, create a canvas with an id, and create a new SlideBox object in your script tags.  Enjoy!
 
 ### Example
 
-<html>
 <script src="/downloads/codePugGameLib.js"></script>
 <canvas id="myCanvas" width="370" height="126"></canvas>
 <hr>
@@ -73,7 +72,7 @@ If you have ever wanted to have a handy JavaScript widget to display questions a
 
     new SlideBox('myCanvas2', "Question 2", "I don't know what to say =)", '#FF0000');
 </script>
-</html>
+
 
 ### Usage
 
@@ -82,7 +81,8 @@ If you have ever wanted to have a handy JavaScript widget to display questions a
 <script src="codePugGameLib.js"></script>
 <script src="codePugSlideBox.js"></script>
 <script>
-    new SlideBox('myCanvas', "Question 1", "Yes, pugs are awesome dogs, and I think that it is really cool that this widget wraps text.", '#0000FF');
+    new SlideBox('myCanvas', "Question 1", "Yes, pugs are awesome dogs, 
+            and I think that it is really cool that this widget wraps text.", '#0000FF');
 </script>
 
 ```
