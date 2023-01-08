@@ -8,8 +8,7 @@ tag: misc
 ## Find Lost Facebook Friends
 Facebook is an awesome social networking web-site. Unfortunately, it doesn't alert users when they are removed from someone elses friends list. The find lost facebook friends application provides the ability to proactively track any friends that have removed you as a friend. This application is a definite must for those with over 100 friends who may have difficulty finding out which friends have been lost when their friend count is reduced. Enjoy!
 
-![Find Lost Facebook Friends](find-lost-facebook-friends.jpg)
-
+![Find Lost Facebook Friends](/assets/images/find-lost-facebook-friends.jpg)
 
 ### New Features(version 1.1a released 3/6/2010)
   * Tracks the date when friends were removed
@@ -30,40 +29,12 @@ License: Freeware
 ### Download
 The content and/or source code for the "Find Lost Facebook Friends" application has been made available as a reference below. It is our hope that it will be an encouragement to others learning to program other freely available applications.
 
-<html>
-<table border="1" cellspacing="0"><thead><tr><td>
-Filename
-</td><td>
-Vers.
-</td><td>
-File type
-</td><td>
-Size
-</td><td>
-Comments
-</td></tr>
-</thead>
-<tr><td>
-<a href="../downloads/lostFriends.jar">
-        lostFriends.jar</a>
-</td><td align="center">
-        1.1a</td><td>
-        Java Executable</td><td>
-        2610k
-</td><td>
-        After downloading and installing the Java Runtime 1.6.10 or higher, double click on the downloaded file.</td></tr>
-        <tr><td>
-<a href="../downloads/lostFriendsSrc.zip">
-        lostFriendsSrc.zip</a>
-</td><td align="center">
-        1.1a</td><td>
-        Java Source Code</td><td>
-        20k
-</td><td>
-        Built using the Eclipse IDE</td></tr>
-        </table>
-        <br>
-        <span style="font-size: 8pt;">
-                Note: This code has not been fully tested. Please do not run this unless you acknowledge that you assume all risks associated with its operation.
-        </span>
-</html>
+|-----------------+-----------+------------+-----------------+----------------|
+| Filename	  | Vers.     | File type  | Size	     | Comments       |
+|-----------------|-----------|------------|-----------------|----------------|
+|[lostFriends.jar](../downloads/lostFriends.jar)|1.1a|Java Executable|2610k|After downloading and installing the Java Runtime 1.6.10 or higher, double click on the downloaded file.|
+|[lostFriendsSrc.zip](../downloads/lostFriendsSrc.zip)|1.1a|Java Source Code|20k|Built using the Eclipse IDE|
+
+<div style="margin-top: 1em;">
+Note: This code has not been fully tested. Please do not run this unless you acknowledge that you assume all risks associated with its operation.
+</div>

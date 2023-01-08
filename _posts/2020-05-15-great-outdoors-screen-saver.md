@@ -16,9 +16,11 @@ License: Freeware
 ### Download
 The content and/or source code for the "Great Outdoors Screen Saver" application has been made available as a reference below. It is our hope that it will be an encouragement to others learning to program other freely available applications.
 
-^ Filename	^ Vers.	^ File type	^ Size	^ Comments     ^
-| [[http://www.codepug.com/downloads/greatOutdoors.scr|greatOutdoors.scr]] | 1.0 | Win32 EXE	| 1020k	| After downloading, right click on the filename and select "Test". | 
-| [[http://www.codepug.com/downloads/greatOutdoorsSrc.zip|greatOutdoorsSrc.zip]] | 1.0 | C Source    | 596k  | Requires Win32 LCC Compiler to compile. | 
+|-----------------+-----------+------------+-----------------+----------------|
+| Filename	  | Vers.     | File type  | Size	     | Comments       |
+|-----------------|-----------|------------|-----------------|----------------|
+| [greatOutdoors.scr](../downloads/greatOutdoors.scr) | 1.0 | Win32 EXE	| 1020k	| After downloading, right click on the filename and select "Test". | 
+| [greatOutdoorsSrc.zip](../downloads/greatOutdoorsSrc.zip) | 1.0 | C Source    | 596k  | Requires Win32 LCC Compiler to compile. | 
 
 <html>
         <span style="font-size: 8pt;">
