@@ -15,7 +15,7 @@ of printer filament, how to use slicing tools, and how to update 3D objects.
 
 ### Progression of Learning
  * Print and download models from sites like [Thingiverse](http://www.thingiverse.com) and [Printables](http://www.printables.com)
- * Resize and rotate models in (Cura)[https://ultimaker.com/software/ultimaker-cura]
+ * Resize and rotate models in [Cura](https://ultimaker.com/software/ultimaker-cura)
  * Edit existing models in [Blender](http://www.blender.org)
  * Create new models from scratch using Blender
  * Hook up the printer to [OctaPrint](https://octoprint.org) for remote job sending
