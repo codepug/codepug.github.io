@@ -251,7 +251,7 @@ The following curriculum unit contains examples, handouts, and assignments geare
 <a href="../downloads/handout4.doc">handout4.doc</a>
 
 </td></tr></table>
-</ul>
+
 </html>
 
 ## Assignments
